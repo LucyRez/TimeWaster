@@ -1,0 +1,49 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-weight: 500;
+}
+
+.leftSection-header {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.appLogo-header {
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.appName-header {
+    color: rgb(254, 82, 82);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.rightSection-header {
+    display: flex;
+    min-width: 300px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.rightSection-header .link {
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+
+.rightSection-header .link:hover {
+    color: rgb(254, 82, 82);
+}
+
+.home-link {
+    width: 32px;
+    cursor: pointer;
+}
