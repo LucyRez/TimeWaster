@@ -19,10 +19,11 @@
     margin-right: 20px;
 }
 
-.appName-header {
+.appName-header a {
     color: rgb(254, 82, 82);
     font-weight: 500;
     font-size: 24px;
+    text-decoration: none;
 }
 
 .rightSection-header {
@@ -34,12 +35,14 @@
     margin-right: 24px;
 }
 
-.rightSection-header .link {
+.link a {
     cursor: pointer;
     transition-duration: 0.15s;
+    color: black;
+    text-decoration: none;
 }
 
-.rightSection-header .link:hover {
+.link a:hover {
     color: rgb(254, 82, 82);
 }
 
