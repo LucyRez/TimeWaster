@@ -1,0 +1,28 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.section-title {
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+}
+
+.twitter-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 16px;
+}
+
+.twitter-tweet {
+    margin-right: 16px;
+}
