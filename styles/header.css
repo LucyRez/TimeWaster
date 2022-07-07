@@ -29,10 +29,10 @@
 .rightSection-header {
     display: flex;
     min-width: 300px;
-    width: 400px;
+    width: 350px;
     align-items: center;
     justify-content: space-between;
-    margin-right: 24px;
+    margin-right: 48px;
 }
 
 .link a {
