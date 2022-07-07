@@ -1,0 +1,67 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-evenly;
+}
+
+.recommendations .recommended-song:not(:last-child) {
+    margin-right: 16px;
+}
+
+.section-title {
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+}
+
+.recommended-song {
+    padding: 16px;
+    border-radius: 16px;
+    border-color: white;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 25%;
+}
+
+.song-image {
+    width: 100%;
+}
+
+.song-title {
+    margin-top: 12px;
+
+    overflow: hidden;
+    max-height: 2.6em;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+}
+
+.artist {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    overflow: hidden;
+    max-height: 2.6em;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    font-weight: 200;
+    color: rgb(254, 82, 82);
+    font-size: 14px;
+}
