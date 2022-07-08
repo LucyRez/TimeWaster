@@ -19,8 +19,25 @@
     margin-right: 32px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.who-said {
+    font-weight: 300;
+    margin-top: 8px;
+    margin-right: 24px;
+    font-style: italic;
+    align-self: flex-end;
+}
+
 .date-dashboard {
-    width: 175px;
+    min-width: 175px;
+    max-width: 175px;
     height: 175px;
     color: white;
     font-weight: 400;
@@ -54,4 +71,5 @@
     color: white;
     border-radius: 16px 16px 0px 0px;
     padding-bottom: 5px;
+    padding-top: 5px;
 }
