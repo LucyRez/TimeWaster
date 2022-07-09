@@ -1,0 +1,65 @@
+.section-title {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.medium-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 24px;
+    max-height: 800px;
+    min-height: 300px;
+}
+
+.medium-section .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 45%;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.article-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 12px;
+    max-width: 500px;
+}
+
+.article-description {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 16px;
+    max-width: 500px;
+}
+
+.article-image {
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.article-info {
+    margin-top: 18px;
+    max-width: 500px;
+}
+
+.article-info .author {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.article-info .time-info {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
